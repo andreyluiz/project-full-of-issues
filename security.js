@@ -64,6 +64,9 @@ localStorage.setItem("token", "sensitive-auth-token");
 // Opening a new window
 const url = "http://example.com";
 window.open(url);
+// Opening a new window
+const url = "http://example.com";
+window.open(url);
 
 // RegExp Denial of Service (ReDoS)
 const pattern = /(a+)+b/;
