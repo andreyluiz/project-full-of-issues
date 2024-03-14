@@ -6,6 +6,12 @@ eval(dynamicCode);
 
 // Document DOM Modification
 document.domain = "example.com";
+// Use of eval
+let dynamicCode = "console.log('Hello from dynamic code!')";
+eval(dynamicCode);
+
+// Document DOM Modification
+document.domain = "example.com";
 
 // localStorage and sensitive data
 localStorage.setItem("token", "sensitive-auth-token");
@@ -47,6 +53,12 @@ exec(`echo ${userProvidedValue}`);
 
 // security-hotspots.js
 
+// Use of eval
+let dynamicCode = "console.log('Hello from dynamic code!')";
+eval(dynamicCode);
+
+// Document DOM Modification
+document.domain = "example.com";
 // Use of eval
 let dynamicCode = "console.log('Hello from dynamic code!')";
 eval(dynamicCode);
